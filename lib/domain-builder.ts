@@ -12,7 +12,7 @@ import {
 	DomainDiskDesc,
 	DomainInterfaceDesc,
 	DomainGraphicsDesc
-} from './domain-desc';
+} from './domain-desc.ts';
 
 export class DomainBuilder {
 	private domainDesc: DomainDesc = { };
